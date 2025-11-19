@@ -19,8 +19,8 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 ```
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
-Developed by: E Hemachandran
-RegisterNumber: 212224230093
+Developed by: KIRAN MP
+RegisterNumber: 212224230123
 import pandas as pd
 df=pd.read_csv('salary.csv')
 df.head()
@@ -40,8 +40,8 @@ from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=100)
 from sklearn.tree import DecisionTreeRegressor
 dt=DecisionTreeRegressor()
-print("NAME : E Hemachandran")
-print("REG NO : 212224230093")
+print("NAME : KIRAN MP")
+print("REG NO : 212224230123")
 dt.fit(x_train,y_train)
 y_pred=dt.predict(x_test)
 y_pred
@@ -82,7 +82,8 @@ x.head():
 
 dt.fit(x_train,y_train):
 
-![WhatsApp Image 2025-11-13 at 9 03 26 AM](https://github.com/user-attachments/assets/86f7693c-19e1-48b4-a8c0-02c76c7cbab1)
+
+<img width="266" height="111" alt="Screenshot 2025-11-19 210451" src="https://github.com/user-attachments/assets/af79c7c4-0613-4e4b-8e8a-30e001bbbd87" />
 
 y_pred:
 
